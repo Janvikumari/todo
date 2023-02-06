@@ -22,7 +22,7 @@ body{
     min-height: 75vh;
     width: 45%;
     border-radius: 10px;
-    box-shadow: 0px 0px 25px -5px #F8043F;
+    box-shadow: 0px 0px 25px -5px bisque;
 }
 
 .input-container{
@@ -47,19 +47,20 @@ body{
 .main-container .validation{
     color: #fff;
     text-align: center;
-    color: #F8043F;
+    color: bisque;
     letter-spacing: 1px;
     font-weight: 400;
 }
 
 .input-container .addbtn{
-    background: #F8043F;
-    color: #fff;
+    background:green;
+    color:white;
 }
 
 .input-container .addbtn:hover{
-    background: #fff;
-    color:#F8043F;
+    color:green;
+    background:#fff;
+    
 }
 
 .heading{
@@ -86,8 +87,8 @@ body{
 }
 
 .store-container .items li{
-    color: #fff;
-    background: #AE01FF;
+    color:crimson;
+    background: cornsilk;
     width: 50%;
     height: 50px;
     margin-right:20px;

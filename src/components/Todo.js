@@ -14,7 +14,6 @@ const Todo = () => {
    const [validation,setValidation] = useState("");
 
     const setData = (e) => {
-        // console.log(e.target.value);
         setTodo(e.target.value)
     }
 
@@ -46,7 +45,7 @@ const Todo = () => {
             <div className='main-container'>
                 <div className='todo-box'>
                     <img src="/book.png" alt="todoimg" className='todoimg' />
-                    <h2 className='heading'>Write Your Todo List Here</h2>
+                    <h2 className='heading'>Agenda For The Day</h2>
                     <h3 className='validation'>{validation}</h3>
                     <div className="input-container">
 
